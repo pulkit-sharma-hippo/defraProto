@@ -13,13 +13,26 @@
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-two-thirds">
 
-      <h1 class="govuk-heading-xl">Heading or question goes here</h1>
+      <h1 class="govuk-heading-xl">Enter the postcode of where the birds with symptoms are located</h1>
 
       <form class="form" action="/url/of/next/page" method="post">
 
-        <p>[Insert question content here]</p>
+        <p><div class="govuk-form-group">
+          
+          <input class="govuk-input" id="event-name" name="event-name" type="text">
+        </div></p>
 
-        <p>[See <a href="https://design-system.service.gov.uk">the GOV.UK Design System</a> for examples]</p>
+        <div class="govuk-form-group">
+          <label class="govuk-label" for="sort">
+            Select from the drop down list
+          </label>
+          <select class="govuk-select" id="sort" name="sort">
+            <option value="updated" selected>Default</option>
+            <option value="published">Craigieburn, Moor head lane, Settle, BD24 0ER</option>
+            <option value="updated" selected>Richmond, Moor head Drive, Settle, BD23 0ER</option>
+        
+          </select>
+        </div>
 
         <button class="govuk-button" data-module="govuk-button">Continue</button>
 
