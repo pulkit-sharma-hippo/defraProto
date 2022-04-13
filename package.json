@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node start.js",
     "lint": "standard",
-    "build":"webpack",
+
     "test": "npm run lint && gulp generate-assets && jest"
   },
   "dependencies": {
